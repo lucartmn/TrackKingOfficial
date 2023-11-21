@@ -8,5 +8,5 @@ Alle relevanten Informationen zu den Bauteilen, Skripten, der Website usw. finde
 ![trackking_logo](https://trackking.eu/assets/images/logo.png)
 
 # Links
-Website: https://trackking.eu/ __
+Website: https://trackking.eu/ <br />
 GitHub: https://github.com/lucartmn/TrackKingOfficial/
