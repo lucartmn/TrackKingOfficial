@@ -1,6 +1,6 @@
 # TrackKingOfficial
-Dies ist das offizielle Git-Hub Repository für unser Hausmesse Projekt "TrackKing - SPOT WHATS YOURS".
+Dies ist das offizielle GitHub-Repository für unser Hausmesse-Projekt "TrackKing - SPOT WHATS YOURS".
 
-"TrackKing" ist ein GPS-Tracker mit Live Tracking funktion. Gedacht ist der Tracker für verschiedene Fahrzeuge (Motoräder, Autos, Wohnwägen...). Sie können so ihr Fahrezeug nachverfolgen falls es z.B. geklaut wurde.
+"TrackKing" ist ein GPS-Tracker mit Live-Tracking-Funktion, der für verschiedene Fahrzeuge wie Motorräder, Autos und Wohnwagen konzipiert ist. Mit diesem Tracker können Sie Ihr Fahrzeug nachverfolgen, insbesondere im Falle eines Diebstahls.
 
-Alle Informationen Rund um die Bauteile / Scripte / Website etc. finden Sie bei den Infosheets.
+Alle relevanten Informationen zu den Bauteilen, Skripten, der Website usw. finden Sie in den Infosheets.
