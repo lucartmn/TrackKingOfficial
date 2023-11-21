@@ -5,7 +5,7 @@ Dies ist das offizielle GitHub-Repository für unser Hausmesse-Projekt "TrackKin
 
 Alle relevanten Informationen zu den Bauteilen, Skripten, der Website usw. finden Sie in den Infosheets.
 
+![trackking_logo](https://trackking.eu/assets/images/logo.png)
+
 # Links
 Website: https://trackking.eu/
-
-![trackking_logo](https://trackking.eu/assets/images/logo.png)
