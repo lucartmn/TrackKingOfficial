@@ -1,0 +1,98 @@
+Key: 5zWq43!#420
+Passwort Website Bneutzer: admin; Lets-stream.eu: 3dJbrVa5goObzu2
+
+Initialisieren:
+
+AT
+AT+GMI
+AT+GSN
+AT+GMM
+AT+GMR
+AT+CREG?
+AT+CGATT=1
+AT+CSTT="pinternet.interkom.de","",""
+AT+CIICR
+AT+CIFSR
+AT+CGNSPWR=1
+AT+CGNSINF
+AT+CIPSTART="TCP","5.249.164.148","443"
+AT+CIPSEND
+
+Flashen: AT+IPR=115200
+
+HTTP-Connection:
+
+AT
+AT+CGATT=1
+AT+SAPBR=3,1,"CONTYPE","GPRS"
+AT+SAPBR=3,1,"APN","pinternet.interkom.de"
+AT+SAPBR=1,1
+AT+HTTPINIT
+AT+HTTPPARA="CID",1
+AT+HTTPPARA="URL","http://lets-stream.eu/get_gps_data.php"
+AT+HTTPPARA="CONTENT","application/x-www-form-urlencoded"
+AT+HTTPDATA=55,5000
+key=5zWq43!#420&latitude=45.435122&longitude=-1.145916
+AT+HTTPACTION=1
+AT+HTTPREAD
+AT+HTTPTERM
+AT+SAPBR=0,1
+
+
++CGNSINF: 1,1,20231006084121.000,47.999878,7.84479
++CGNSINF: <fix>,<ttff>,<date>,<latitude>,<longitude>,<altitude>,<speed>
+
+<fix>: Der GPS-Fix-Status (1 für 2D-Fix, 2 für 3D-Fix).
+<ttff>: Time to First Fix (Zeit bis zur ersten Fixierung).
+<date>: Datum im Format "YYYYMMDDHHMMSS.sss".
+<latitude>: Breitengrad im Dezimalgradformat.
+<longitude>: Längengrad im Dezimalgradformat.
+<altitude>: Höhe über dem Meeresspiegel.
+<speed>: Geschwindigkeit.
+
+
+AT
+OK
+AT +GMI
+
+SIMCOM_Ltd
+
+OK
+AT +GSN
+
+865067020936491
+
+OK
+AT +GMM
+
+SIMCOM_SIM808
+
+OK
+AT +GMR
+
+Revision:1418B01SIM808M32
+
+OK
+AT + CREG?
+
++CREG: 0,1
+
+OK
+AT + CGATT =1
+
+OK
+AT + CSTT = "pinternet.interkom.de", "",""
+
+ERROR
+AT + CIICR
+
+OK
+AT + CIFSR
+
+10.176.154.112
+AT + CGPSPWR = 1
+
+ERROR
+AT + CGPSINF = 0
+
+ERROR
