@@ -8,4 +8,4 @@ Alle relevanten Informationen zu den Bauteilen, Skripten, der Website usw. finde
 # Links
 Website: https://trackking.eu/
 
-![alt text]([http://url/to/img.png](https://trackking.eu/assets/images/logo.png)https://trackking.eu/assets/images/logo.png)
+![trackking_logo](https://trackking.eu/assets/images/logo.png)
