@@ -1,24 +1,7 @@
 # TrackKing
-Hausmesse 2023
 
-Hauptskript: GPS-Live-Tracking
+Dies ist das offizielle Git-Hub Repository für unser Hausmesse Projekt "TrackKing - SPOT WHATS YOURS".
 
-Jeder sollte ein Modul und eine SIM Karte daheim haben zum testen..
-Sim808 Modul und Arduino Uno R3
+"TrackKing" ist ein GPS-Tracker mit Live Tracking funktion. Gedacht ist der Tracker für verschiedene Fahrzeuge (Motoräder, Autos, Wohnwägen...). Sie können so ihr Fahrezeug nachverfolgen falls es z.B. geklaut wurde. 
 
-
-Aufgabenpakete:
-Optik: Messestand, Plakate, Gehäuse, Werbung, Infozettel?
-Technik: Programme, Testen, Sicherheit, Firmware, ProMini, Zusatz Bluetooth Funktionen, Beschleunigungssensor, Abschließen Funktion
-
-
-
-
-
-- Security: Problem: Haben nur HTTP Verbindung, aber muss trotzdem sicher sein, auch die Passwörter und Token
-- Kommunikation: Problem: Die SMS muss manchmal öfters gesendet werden, da der Befehl sonst nicht ankommt. Außerdem soll auch über Buttons auf der Website bedienbar sein und evtl auch über einen Button am Gerät (Buttoncodes lange drücken kurz drücken etc) - SMS Problem gelöst..
-- Logik: Welche funktionen braucht das Programm in der Realität und wie kann man diese umsetzen
-- Firmware: Das Programm muss fertig auf das wesentliche gekürt werden und es müssen Systeme zur Ausfallsicherung entwickelt werden
-- Anderes SIM Modul muss getestet werden, evtl ist das besser, da es kleiner ist
-
-Over the top: Bluetooth Funktionen testen und evtl Sensoren anbinden
+Alle Informationen Rund um die Bauteile / Scripte / Website etc. finden Sie bei den Infosheets.
